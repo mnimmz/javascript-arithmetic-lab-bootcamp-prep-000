@@ -3,7 +3,7 @@ function add(a, b){
 }
 
 function subtract(a, b){
-  return b - a;
+  return a - b;
 }
 
 function multiply(a, b){
@@ -23,10 +23,10 @@ function dec(n){
 }
 
 function makeInt(n){
-  return parseInt('n', 10);
+  return parseInt(n, 10);
 }
 
 function preserveDecimal(n){
-  return parseFloat('n');
-  return parseFloat('n', 10);
+  return parseFloat(n);
+
 }
